@@ -1,0 +1,101 @@
+# Visualize on https://erd.surge.sh
+# or https://quick-erd.surge.sh
+#
+# Relationship Types
+#  -    - one to one
+#  -<   - one to many
+#  >-   - many to one
+#  >-<  - many to many
+#  -0   - one to zero or one
+#  0-   - zero or one to one
+#  0-0  - zero or one to zero or one
+#  -0<  - one to zero or many
+#  >0-  - zero or many to one
+#
+////////////////////////////////////
+
+User
+----
+id PK
+email varchar(128)
+display_name varchat(64)
+
+Adventure
+----
+id PK
+author_id FK >0- User.id
+cloned_from_id FK 0-0 Adventure.id
+system_id FK -< System.id
+name varchar(128)
+spoiler_free_description text
+spoiler_description text
+level integer
+number_of_players integer
+
+
+Area
+----
+id PK
+adventure_id FK >0- Adventure.id
+name varchar(128)
+description text
+map_url text
+map_width integer
+map_height integer
+
+Encounter
+----
+id PK
+adventure_id FK >0- Area.id
+name varchar(128)
+description text
+map_marker_x integer
+map_marker_y integer
+map_marker_symbol varchar(4)
+
+Monster
+----
+id PK
+dnd_external_id varchar(64) FK 0-0 DNDMongoDB.monsters
+pathfinder_external_id varchar(64) FK 0-0 PathfinderMongoDB.monsters
+daggerheart_external_id varchar(64) FK 0-0 DaggerheartMongoDB.monsters
+name string
+level integer
+type string
+
+EncounterMonsters
+----
+monster_id FK >0- Monster.id
+encounter_id FK >0- Encounter.id
+
+
+DNDMongoDB
+----
+monsters document
+
+
+PathfinderMongoDB
+----
+monsters document
+
+DaggerheartMongoDB
+----
+monsters document
+
+System
+----
+id PK
+name varchar(64)
+
+# view: (0, -18)
+# zoom: 1.000
+# User (50, 200)
+# Adventure (400, 200)
+# Area (850, 200)
+# Encounter (1200, 200)
+# System (400, 525)
+# Monster (1900, 200)
+# EncounterMonsters (1600, 200)
+# DNDMongoDB (1600, 350)
+# PathfinderMongoDB (1600, 450)
+# DaggerheartMongoDB (1600, 550)

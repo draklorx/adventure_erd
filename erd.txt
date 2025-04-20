@@ -33,7 +33,7 @@ level integer
 number_of_players integer
 
 
-Area
+Location
 ----
 id PK
 adventure_id FK >0- Adventure.id
@@ -42,53 +42,72 @@ description text
 map_url text
 map_width integer
 map_height integer
+order integer
 
 Encounter
 ----
 id PK
-adventure_id FK >0- Area.id
+adventure_id FK >0- Location.id
 name varchar(128)
 description text
 map_marker_x integer
 map_marker_y integer
 map_marker_symbol varchar(4)
+order integer
 
 Monster
 ----
 id PK
-dnd_external_id varchar(64) FK 0-0 DNDMongoDB.monsters
-pathfinder_external_id varchar(64) FK 0-0 PathfinderMongoDB.monsters
-daggerheart_external_id varchar(64) FK 0-0 DaggerheartMongoDB.monsters
+dnd_external_id varchar(64) FK 0-0 DNDMongoDB.Monster
+pathfinder_external_id varchar(64) FK 0-0 PathfinderMongoDB.Monster
+daggerheart_external_id varchar(64) FK 0-0 DaggerheartMongoDB.Monster
 name string
 level integer
 type string
 
-EncounterMonsters
+EncounterMonster
 ----
-monster_id FK >0- Monster.id
-encounter_id FK >0- Encounter.id
+monster_id PK FK >0- Monster.id
+encounter_id PK FK >0- Encounter.id
+number integer
 
+MagicItem
+----
+id PK
+dnd_external_id varchar(64) FK 0-0 DNDMongoDB.MagicItem
+pathfinder_external_id varchar(64) FK 0-0 PathfinderMongoDB.MagicItem
+daggerheart_external_id varchar(64) FK 0-0 DaggerheartMongoDB.MagicItem
+name string
+level integer
+type string
+
+EncounerMagicItem
+----
+magic_item_id PK FK >0- MagicItem.id
+encounter_id PK FK >0- Encounter.id
 
 DNDMongoDB
 ----
-monsters document
-
+Monster document
+MagicItem document
 
 PathfinderMongoDB
 ----
-monsters document
+Monster document
+MagicItem document
 
 DaggerheartMongoDB
 ----
-monsters document
+Monster document
+MagicItem document
 
 System
 ----
 id PK
 name varchar(64)
 
-# view: (0, -18)
-# zoom: 1.000
+# view: (0, 0)
+# zoom: 0.951
 # User (50, 200)
 # Adventure (400, 200)
 # Area (850, 200)
@@ -99,3 +118,7 @@ name varchar(64)
 # DNDMongoDB (1600, 350)
 # PathfinderMongoDB (1600, 450)
 # DaggerheartMongoDB (1600, 550)
+# EncounterMonster (1606, 186)
+# MagicItem (1177, 438)
+# EncounerMagicItem (853, 454)
+# Location (855, 190)

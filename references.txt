@@ -1,0 +1,9 @@
+Old Shool Essentials SRD JSON Data
+https://github.com/unitedfantasytoolkit/classicfantasycompendium
+
+D&D 5e SRD JSON Data
+https://github.com/5e-bits/5e-database
+
+Pahtfinder 2e SRD JSON Data
+https://github.com/foundryvtt/pf2e
+

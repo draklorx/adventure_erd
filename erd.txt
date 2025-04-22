@@ -14,11 +14,23 @@
 #
 ////////////////////////////////////
 
-User
+DungeonsAndDragons
 ----
-id PK
-email varchar(128)
-display_name varchat(64)
+Monster document
+MagicItem document
+Ability document
+
+OldSchoolEssentials
+----
+Monster document
+MagicItem document
+Ability document
+
+Pathfinder
+----
+Monster document
+MagicItem document
+Ability document
 
 Adventure
 ----
@@ -32,6 +44,17 @@ spoiler_description text
 level integer
 number_of_players integer
 
+Encounter
+----
+id PK
+location_id FK >0- Location.id
+name varchar(128)
+read_aloud_text text
+summary text
+map_marker_x integer
+map_marker_y integer
+map_marker_symbol varchar(4)
+order integer
 
 Location
 ----
@@ -44,81 +67,88 @@ map_width integer
 map_height integer
 order integer
 
-Encounter
+MagicItem
 ----
 id PK
-adventure_id FK >0- Location.id
-name varchar(128)
-description text
-map_marker_x integer
-map_marker_y integer
-map_marker_symbol varchar(4)
-order integer
+author_id FK >0- User.id
+cloned_from_id FK 0-0 MagicItem.id
+dnd_external_key varchar(64)
+pf2e_external_key varchar(64)
+ose_external_key varchar(64)
+name string
+level integer
+type string
 
 Monster
 ----
 id PK
-dnd_external_id varchar(64) FK 0-0 DNDMongoDB.Monster
-pathfinder_external_id varchar(64) FK 0-0 PathfinderMongoDB.Monster
-daggerheart_external_id varchar(64) FK 0-0 DaggerheartMongoDB.Monster
+author_id FK >0- User.id
+cloned_from_id FK 0-0 Monster.id
+dnd_external_key varchar(64)
+pf2e_external_key varchar(64)
+ose_external_key varchar(64)
 name string
 level integer
 type string
 
-EncounterMonster
-----
-monster_id PK FK >0- Monster.id
-encounter_id PK FK >0- Encounter.id
-number integer
-
-MagicItem
+PointOfInterest
 ----
 id PK
-dnd_external_id varchar(64) FK 0-0 DNDMongoDB.MagicItem
-pathfinder_external_id varchar(64) FK 0-0 PathfinderMongoDB.MagicItem
-daggerheart_external_id varchar(64) FK 0-0 DaggerheartMongoDB.MagicItem
-name string
-level integer
-type string
+encounter_id FK >0- Encounter.id
+name varchar(128)
+description text
+order integer
 
-EncounerMagicItem
+PointOfInterestAbilityCheck
+----
+ability_check_id PK
+point_of_interest_id FK >0- PointOfInterest.id
+ability varchar(64)
+difficulty integer
+description text
+order integer
+
+PointOfInterestMagicItem
 ----
 magic_item_id PK FK >0- MagicItem.id
-encounter_id PK FK >0- Encounter.id
+point_of_interest_id PK FK >0- PointOfInterest.id
+number integer
+custom_name var_char(64) null
+order integer
 
-DNDMongoDB
+PointOfInterestMonster
 ----
-Monster document
-MagicItem document
-
-PathfinderMongoDB
-----
-Monster document
-MagicItem document
-
-DaggerheartMongoDB
-----
-Monster document
-MagicItem document
+monster_id PK FK >0- Monster.id
+point_of_interest_id PK FK >0- PointOfInterest.id
+number integer
+custom_name var_char(64) null
+order integer
 
 System
 ----
 id PK
 name varchar(64)
+data_set varchar(64)
 
-# view: (0, 0)
-# zoom: 0.951
-# User (50, 200)
-# Adventure (400, 200)
-# Area (850, 200)
-# Encounter (1200, 200)
-# System (400, 525)
-# Monster (1900, 200)
-# EncounterMonsters (1600, 200)
-# DNDMongoDB (1600, 350)
-# PathfinderMongoDB (1600, 450)
-# DaggerheartMongoDB (1600, 550)
-# EncounterMonster (1606, 186)
-# MagicItem (1177, 438)
-# EncounerMagicItem (853, 454)
-# Location (855, 190)
+User
+----
+id PK
+email varchar(128)
+display_name varchat(64)
+
+# view: (-42, -26)
+# zoom: 1.000
+# DungeonsAndDragons (30, 30, #00684a)
+# Pathfinder (30, 230, #00684a)
+# OldSchoolEssentials (30, 430, #00684a)
+# User (30, 630, #ea8c10)
+# System (30, 830, #ea8c10)
+# Monster (400, 30, #ea8c10)
+# MagicItem (400, 350, #ea8c10)
+# Adventure (400, 670, #ea8c10)
+# PointOfInterestMonster (775, 30, #ea8c10)
+# PointOfInterestMagicItem (775, 230, #ea8c10)
+# PointOfInterestAbilityCheck (775, 430, #ea8c10)
+# Location (830, 670, #ea8c10)
+# PointOfInterest (1236, 332, #ea8c10)
+# Encounter (1150, 670, #ea8c10)

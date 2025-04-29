@@ -17,27 +17,10 @@
 DungeonsAndDragons
 ----
 Monster document
-MagicItem document
-Ability document
-
-OldSchoolEssentials
-----
-Monster document
-MagicItem document
-Ability document
-
-Pathfinder
-----
-Monster document
-MagicItem document
-Ability document
 
 Adventure
 ----
 id PK
-author_id FK >0- User.id
-cloned_from_id FK 0-0 Adventure.id
-system_id FK -< System.id
 name varchar(128)
 spoiler_free_description text
 spoiler_description text
@@ -54,7 +37,7 @@ summary text
 map_marker_x integer
 map_marker_y integer
 map_marker_symbol varchar(4)
-order integer
+sort_order integer
 
 Location
 ----
@@ -65,31 +48,7 @@ description text
 map_url text
 map_width integer
 map_height integer
-order integer
-
-MagicItem
-----
-id PK
-author_id FK >0- User.id
-cloned_from_id FK 0-0 MagicItem.id
-dnd_external_key varchar(64)
-pf2e_external_key varchar(64)
-ose_external_key varchar(64)
-name string
-level integer
-type string
-
-Monster
-----
-id PK
-author_id FK >0- User.id
-cloned_from_id FK 0-0 Monster.id
-dnd_external_key varchar(64)
-pf2e_external_key varchar(64)
-ose_external_key varchar(64)
-name string
-level integer
-type string
+sort_order integer
 
 PointOfInterest
 ----
@@ -97,7 +56,7 @@ id PK
 encounter_id FK >0- Encounter.id
 name varchar(128)
 description text
-order integer
+sort_order integer
 
 PointOfInterestAbilityCheck
 ----
@@ -106,49 +65,22 @@ point_of_interest_id FK >0- PointOfInterest.id
 ability varchar(64)
 difficulty integer
 description text
-order integer
-
-PointOfInterestMagicItem
-----
-magic_item_id PK FK >0- MagicItem.id
-point_of_interest_id PK FK >0- PointOfInterest.id
-number integer
-custom_name var_char(64) null
-order integer
+sort_order integer
 
 PointOfInterestMonster
 ----
-monster_id PK FK >0- Monster.id
+monster_id varchar(64) PK FK >0- DungeonsAndDragons.Monster
 point_of_interest_id PK FK >0- PointOfInterest.id
 number integer
-custom_name var_char(64) null
-order integer
+custom_name varchar(64) null
+sort_order integer
 
-System
-----
-id PK
-name varchar(64)
-data_set varchar(64)
-
-User
-----
-id PK
-email varchar(128)
-display_name varchat(64)
-
-# view: (-42, -26)
+# view: (-74, -7)
 # zoom: 1.000
-# DungeonsAndDragons (30, 30, #00684a)
-# Pathfinder (30, 230, #00684a)
-# OldSchoolEssentials (30, 430, #00684a)
-# User (30, 630, #ea8c10)
-# System (30, 830, #ea8c10)
-# Monster (400, 30, #ea8c10)
-# MagicItem (400, 350, #ea8c10)
-# Adventure (400, 670, #ea8c10)
-# PointOfInterestMonster (775, 30, #ea8c10)
-# PointOfInterestMagicItem (775, 230, #ea8c10)
-# PointOfInterestAbilityCheck (775, 430, #ea8c10)
-# Location (830, 670, #ea8c10)
-# PointOfInterest (1236, 332, #ea8c10)
-# Encounter (1150, 670, #ea8c10)
+# DungeonsAndDragons (350, 300, #00684a)
+# Adventure (50, 525, #ea8c10)
+# PointOfInterest (1250, 400, #ea8c10)
+# PointOfInterestMonster (600, 300, #ea8c10)
+# PointOfInterestAbilityCheck (675, 50, #ea8c10)
+# Location (500, 525, #ea8c10)
+# Encounter (850, 525, #ea8c10)

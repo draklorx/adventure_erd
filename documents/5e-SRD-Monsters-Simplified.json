@@ -1,0 +1,2006 @@
+[
+  {
+    "index": "aboleth",
+    "name": "Aboleth",
+    "challenge_rating": 10,
+    "type": "aberration"
+  },
+  {
+    "index": "acolyte",
+    "name": "Acolyte",
+    "challenge_rating": 0.25,
+    "type": "humanoid"
+  },
+  {
+    "index": "adult-black-dragon",
+    "name": "Adult Black Dragon",
+    "challenge_rating": 14,
+    "type": "dragon"
+  },
+  {
+    "index": "adult-blue-dragon",
+    "name": "Adult Blue Dragon",
+    "challenge_rating": 16,
+    "type": "dragon"
+  },
+  {
+    "index": "adult-brass-dragon",
+    "name": "Adult Brass Dragon",
+    "challenge_rating": 13,
+    "type": "dragon"
+  },
+  {
+    "index": "adult-bronze-dragon",
+    "name": "Adult Bronze Dragon",
+    "challenge_rating": 15,
+    "type": "dragon"
+  },
+  {
+    "index": "adult-copper-dragon",
+    "name": "Adult Copper Dragon",
+    "challenge_rating": 14,
+    "type": "dragon"
+  },
+  {
+    "index": "adult-gold-dragon",
+    "name": "Adult Gold Dragon",
+    "challenge_rating": 17,
+    "type": "dragon"
+  },
+  {
+    "index": "adult-green-dragon",
+    "name": "Adult Green Dragon",
+    "challenge_rating": 15,
+    "type": "dragon"
+  },
+  {
+    "index": "adult-red-dragon",
+    "name": "Adult Red Dragon",
+    "challenge_rating": 17,
+    "type": "dragon"
+  },
+  {
+    "index": "adult-silver-dragon",
+    "name": "Adult Silver Dragon",
+    "challenge_rating": 16,
+    "type": "dragon"
+  },
+  {
+    "index": "adult-white-dragon",
+    "name": "Adult White Dragon",
+    "challenge_rating": 13,
+    "type": "dragon"
+  },
+  {
+    "index": "air-elemental",
+    "name": "Air Elemental",
+    "challenge_rating": 5,
+    "type": "elemental"
+  },
+  {
+    "index": "ancient-black-dragon",
+    "name": "Ancient Black Dragon",
+    "challenge_rating": 21,
+    "type": "dragon"
+  },
+  {
+    "index": "ancient-blue-dragon",
+    "name": "Ancient Blue Dragon",
+    "challenge_rating": 23,
+    "type": "dragon"
+  },
+  {
+    "index": "ancient-brass-dragon",
+    "name": "Ancient Brass Dragon",
+    "challenge_rating": 20,
+    "type": "dragon"
+  },
+  {
+    "index": "ancient-bronze-dragon",
+    "name": "Ancient Bronze Dragon",
+    "challenge_rating": 22,
+    "type": "dragon"
+  },
+  {
+    "index": "ancient-copper-dragon",
+    "name": "Ancient Copper Dragon",
+    "challenge_rating": 21,
+    "type": "dragon"
+  },
+  {
+    "index": "ancient-gold-dragon",
+    "name": "Ancient Gold Dragon",
+    "challenge_rating": 24,
+    "type": "dragon"
+  },
+  {
+    "index": "ancient-green-dragon",
+    "name": "Ancient Green Dragon",
+    "challenge_rating": 22,
+    "type": "dragon"
+  },
+  {
+    "index": "ancient-red-dragon",
+    "name": "Ancient Red Dragon",
+    "challenge_rating": 24,
+    "type": "dragon"
+  },
+  {
+    "index": "ancient-silver-dragon",
+    "name": "Ancient Silver Dragon",
+    "challenge_rating": 23,
+    "type": "dragon"
+  },
+  {
+    "index": "ancient-white-dragon",
+    "name": "Ancient White Dragon",
+    "challenge_rating": 20,
+    "type": "dragon"
+  },
+  {
+    "index": "androsphinx",
+    "name": "Androsphinx",
+    "challenge_rating": 17,
+    "type": "monstrosity"
+  },
+  {
+    "index": "animated-armor",
+    "name": "Animated Armor",
+    "challenge_rating": 1,
+    "type": "construct"
+  },
+  {
+    "index": "ankheg",
+    "name": "Ankheg",
+    "challenge_rating": 2,
+    "type": "monstrosity"
+  },
+  {
+    "index": "ape",
+    "name": "Ape",
+    "challenge_rating": 0.5,
+    "type": "beast"
+  },
+  {
+    "index": "archmage",
+    "name": "Archmage",
+    "challenge_rating": 12,
+    "type": "humanoid"
+  },
+  {
+    "index": "assassin",
+    "name": "Assassin",
+    "challenge_rating": 8,
+    "type": "humanoid"
+  },
+  {
+    "index": "awakened-shrub",
+    "name": "Awakened Shrub",
+    "challenge_rating": 0,
+    "type": "plant"
+  },
+  {
+    "index": "awakened-tree",
+    "name": "Awakened Tree",
+    "challenge_rating": 2,
+    "type": "plant"
+  },
+  {
+    "index": "axe-beak",
+    "name": "Axe Beak",
+    "challenge_rating": 0.25,
+    "type": "beast"
+  },
+  {
+    "index": "azer",
+    "name": "Azer",
+    "challenge_rating": 2,
+    "type": "elemental"
+  },
+  {
+    "index": "baboon",
+    "name": "Baboon",
+    "challenge_rating": 0,
+    "type": "beast"
+  },
+  {
+    "index": "badger",
+    "name": "Badger",
+    "challenge_rating": 0,
+    "type": "beast"
+  },
+  {
+    "index": "balor",
+    "name": "Balor",
+    "challenge_rating": 19,
+    "type": "fiend"
+  },
+  {
+    "index": "bandit",
+    "name": "Bandit",
+    "challenge_rating": 0.125,
+    "type": "humanoid"
+  },
+  {
+    "index": "bandit-captain",
+    "name": "Bandit Captain",
+    "challenge_rating": 2,
+    "type": "humanoid"
+  },
+  {
+    "index": "barbed-devil",
+    "name": "Barbed Devil",
+    "challenge_rating": 5,
+    "type": "fiend"
+  },
+  {
+    "index": "basilisk",
+    "name": "Basilisk",
+    "challenge_rating": 3,
+    "type": "monstrosity"
+  },
+  {
+    "index": "bat",
+    "name": "Bat",
+    "challenge_rating": 0,
+    "type": "beast"
+  },
+  {
+    "index": "bearded-devil",
+    "name": "Bearded Devil",
+    "challenge_rating": 3,
+    "type": "fiend"
+  },
+  {
+    "index": "behir",
+    "name": "Behir",
+    "challenge_rating": 11,
+    "type": "monstrosity"
+  },
+  {
+    "index": "berserker",
+    "name": "Berserker",
+    "challenge_rating": 2,
+    "type": "humanoid"
+  },
+  {
+    "index": "black-bear",
+    "name": "Black Bear",
+    "challenge_rating": 0.5,
+    "type": "beast"
+  },
+  {
+    "index": "black-dragon-wyrmling",
+    "name": "Black Dragon Wyrmling",
+    "challenge_rating": 2,
+    "type": "dragon"
+  },
+  {
+    "index": "black-pudding",
+    "name": "Black Pudding",
+    "challenge_rating": 4,
+    "type": "ooze"
+  },
+  {
+    "index": "blink-dog",
+    "name": "Blink Dog",
+    "challenge_rating": 0.25,
+    "type": "fey"
+  },
+  {
+    "index": "blood-hawk",
+    "name": "Blood Hawk",
+    "challenge_rating": 0.125,
+    "type": "beast"
+  },
+  {
+    "index": "blue-dragon-wyrmling",
+    "name": "Blue Dragon Wyrmling",
+    "challenge_rating": 3,
+    "type": "dragon"
+  },
+  {
+    "index": "boar",
+    "name": "Boar",
+    "challenge_rating": 0.25,
+    "type": "beast"
+  },
+  {
+    "index": "bone-devil",
+    "name": "Bone Devil",
+    "challenge_rating": 9,
+    "type": "fiend"
+  },
+  {
+    "index": "brass-dragon-wyrmling",
+    "name": "Brass Dragon Wyrmling",
+    "challenge_rating": 1,
+    "type": "dragon"
+  },
+  {
+    "index": "bronze-dragon-wyrmling",
+    "name": "Bronze Dragon Wyrmling",
+    "challenge_rating": 2,
+    "type": "dragon"
+  },
+  {
+    "index": "brown-bear",
+    "name": "Brown Bear",
+    "challenge_rating": 1,
+    "type": "beast"
+  },
+  {
+    "index": "bugbear",
+    "name": "Bugbear",
+    "challenge_rating": 1,
+    "type": "humanoid"
+  },
+  {
+    "index": "bulette",
+    "name": "Bulette",
+    "challenge_rating": 5,
+    "type": "monstrosity"
+  },
+  {
+    "index": "camel",
+    "name": "Camel",
+    "challenge_rating": 0.125,
+    "type": "beast"
+  },
+  {
+    "index": "cat",
+    "name": "Cat",
+    "challenge_rating": 0,
+    "type": "beast"
+  },
+  {
+    "index": "centaur",
+    "name": "Centaur",
+    "challenge_rating": 2,
+    "type": "monstrosity"
+  },
+  {
+    "index": "chain-devil",
+    "name": "Chain Devil",
+    "challenge_rating": 8,
+    "type": "fiend"
+  },
+  {
+    "index": "chimera",
+    "name": "Chimera",
+    "challenge_rating": 6,
+    "type": "monstrosity"
+  },
+  {
+    "index": "chuul",
+    "name": "Chuul",
+    "challenge_rating": 4,
+    "type": "aberration"
+  },
+  {
+    "index": "clay-golem",
+    "name": "Clay Golem",
+    "challenge_rating": 9,
+    "type": "construct"
+  },
+  {
+    "index": "cloaker",
+    "name": "Cloaker",
+    "challenge_rating": 8,
+    "type": "aberration"
+  },
+  {
+    "index": "cloud-giant",
+    "name": "Cloud Giant",
+    "challenge_rating": 9,
+    "type": "giant"
+  },
+  {
+    "index": "cockatrice",
+    "name": "Cockatrice",
+    "challenge_rating": 0.5,
+    "type": "monstrosity"
+  },
+  {
+    "index": "commoner",
+    "name": "Commoner",
+    "challenge_rating": 0,
+    "type": "humanoid"
+  },
+  {
+    "index": "constrictor-snake",
+    "name": "Constrictor Snake",
+    "challenge_rating": 0.25,
+    "type": "beast"
+  },
+  {
+    "index": "copper-dragon-wyrmling",
+    "name": "Copper Dragon Wyrmling",
+    "challenge_rating": 1,
+    "type": "dragon"
+  },
+  {
+    "index": "couatl",
+    "name": "Couatl",
+    "challenge_rating": 4,
+    "type": "celestial"
+  },
+  {
+    "index": "crab",
+    "name": "Crab",
+    "challenge_rating": 0,
+    "type": "beast"
+  },
+  {
+    "index": "crocodile",
+    "name": "Crocodile",
+    "challenge_rating": 0.5,
+    "type": "beast"
+  },
+  {
+    "index": "cult-fanatic",
+    "name": "Cult Fanatic",
+    "challenge_rating": 2,
+    "type": "humanoid"
+  },
+  {
+    "index": "cultist",
+    "name": "Cultist",
+    "challenge_rating": 0.125,
+    "type": "humanoid"
+  },
+  {
+    "index": "darkmantle",
+    "name": "Darkmantle",
+    "challenge_rating": 0.5,
+    "type": "monstrosity"
+  },
+  {
+    "index": "death-dog",
+    "name": "Death Dog",
+    "challenge_rating": 1,
+    "type": "monstrosity"
+  },
+  {
+    "index": "deep-gnome-svirfneblin",
+    "name": "Deep Gnome (Svirfneblin)",
+    "challenge_rating": 0.5,
+    "type": "humanoid"
+  },
+  {
+    "index": "deer",
+    "name": "Deer",
+    "challenge_rating": 0,
+    "type": "beast"
+  },
+  {
+    "index": "deva",
+    "name": "Deva",
+    "challenge_rating": 10,
+    "type": "celestial"
+  },
+  {
+    "index": "dire-wolf",
+    "name": "Dire Wolf",
+    "challenge_rating": 1,
+    "type": "beast"
+  },
+  {
+    "index": "djinni",
+    "name": "Djinni",
+    "challenge_rating": 11,
+    "type": "elemental"
+  },
+  {
+    "index": "doppelganger",
+    "name": "Doppelganger",
+    "challenge_rating": 3,
+    "type": "monstrosity"
+  },
+  {
+    "index": "draft-horse",
+    "name": "Draft Horse",
+    "challenge_rating": 0.25,
+    "type": "beast"
+  },
+  {
+    "index": "dragon-turtle",
+    "name": "Dragon Turtle",
+    "challenge_rating": 17,
+    "type": "dragon"
+  },
+  {
+    "index": "dretch",
+    "name": "Dretch",
+    "challenge_rating": 0.25,
+    "type": "fiend"
+  },
+  {
+    "index": "drider",
+    "name": "Drider",
+    "challenge_rating": 6,
+    "type": "monstrosity"
+  },
+  {
+    "index": "drow",
+    "name": "Drow",
+    "challenge_rating": 0.25,
+    "type": "humanoid"
+  },
+  {
+    "index": "druid",
+    "name": "Druid",
+    "challenge_rating": 2,
+    "type": "humanoid"
+  },
+  {
+    "index": "dryad",
+    "name": "Dryad",
+    "challenge_rating": 1,
+    "type": "fey"
+  },
+  {
+    "index": "duergar",
+    "name": "Duergar",
+    "challenge_rating": 1,
+    "type": "humanoid"
+  },
+  {
+    "index": "dust-mephit",
+    "name": "Dust Mephit",
+    "challenge_rating": 0.5,
+    "type": "elemental"
+  },
+  {
+    "index": "eagle",
+    "name": "Eagle",
+    "challenge_rating": 0,
+    "type": "beast"
+  },
+  {
+    "index": "earth-elemental",
+    "name": "Earth Elemental",
+    "challenge_rating": 5,
+    "type": "elemental"
+  },
+  {
+    "index": "efreeti",
+    "name": "Efreeti",
+    "challenge_rating": 11,
+    "type": "elemental"
+  },
+  {
+    "index": "elephant",
+    "name": "Elephant",
+    "challenge_rating": 4,
+    "type": "beast"
+  },
+  {
+    "index": "elk",
+    "name": "Elk",
+    "challenge_rating": 0.25,
+    "type": "beast"
+  },
+  {
+    "index": "erinyes",
+    "name": "Erinyes",
+    "challenge_rating": 12,
+    "type": "fiend"
+  },
+  {
+    "index": "ettercap",
+    "name": "Ettercap",
+    "challenge_rating": 2,
+    "type": "monstrosity"
+  },
+  {
+    "index": "ettin",
+    "name": "Ettin",
+    "challenge_rating": 4,
+    "type": "giant"
+  },
+  {
+    "index": "fire-elemental",
+    "name": "Fire Elemental",
+    "challenge_rating": 5,
+    "type": "elemental"
+  },
+  {
+    "index": "fire-giant",
+    "name": "Fire Giant",
+    "challenge_rating": 9,
+    "type": "giant"
+  },
+  {
+    "index": "flesh-golem",
+    "name": "Flesh Golem",
+    "challenge_rating": 5,
+    "type": "construct"
+  },
+  {
+    "index": "flying-snake",
+    "name": "Flying Snake",
+    "challenge_rating": 0.125,
+    "type": "beast"
+  },
+  {
+    "index": "flying-sword",
+    "name": "Flying Sword",
+    "challenge_rating": 0.25,
+    "type": "construct"
+  },
+  {
+    "index": "frog",
+    "name": "Frog",
+    "challenge_rating": 0,
+    "type": "beast"
+  },
+  {
+    "index": "frost-giant",
+    "name": "Frost Giant",
+    "challenge_rating": 8,
+    "type": "giant"
+  },
+  {
+    "index": "gargoyle",
+    "name": "Gargoyle",
+    "challenge_rating": 2,
+    "type": "elemental"
+  },
+  {
+    "index": "gelatinous-cube",
+    "name": "Gelatinous Cube",
+    "challenge_rating": 2,
+    "type": "ooze"
+  },
+  {
+    "index": "ghast",
+    "name": "Ghast",
+    "challenge_rating": 2,
+    "type": "undead"
+  },
+  {
+    "index": "ghost",
+    "name": "Ghost",
+    "challenge_rating": 4,
+    "type": "undead"
+  },
+  {
+    "index": "ghoul",
+    "name": "Ghoul",
+    "challenge_rating": 1,
+    "type": "undead"
+  },
+  {
+    "index": "giant-ape",
+    "name": "Giant Ape",
+    "challenge_rating": 7,
+    "type": "beast"
+  },
+  {
+    "index": "giant-badger",
+    "name": "Giant Badger",
+    "challenge_rating": 0.25,
+    "type": "beast"
+  },
+  {
+    "index": "giant-bat",
+    "name": "Giant Bat",
+    "challenge_rating": 0.25,
+    "type": "beast"
+  },
+  {
+    "index": "giant-boar",
+    "name": "Giant Boar",
+    "challenge_rating": 2,
+    "type": "beast"
+  },
+  {
+    "index": "giant-centipede",
+    "name": "Giant Centipede",
+    "challenge_rating": 0.25,
+    "type": "beast"
+  },
+  {
+    "index": "giant-constrictor-snake",
+    "name": "Giant Constrictor Snake",
+    "challenge_rating": 2,
+    "type": "beast"
+  },
+  {
+    "index": "giant-crab",
+    "name": "Giant Crab",
+    "challenge_rating": 0.125,
+    "type": "beast"
+  },
+  {
+    "index": "giant-crocodile",
+    "name": "Giant Crocodile",
+    "challenge_rating": 5,
+    "type": "beast"
+  },
+  {
+    "index": "giant-eagle",
+    "name": "Giant Eagle",
+    "challenge_rating": 1,
+    "type": "beast"
+  },
+  {
+    "index": "giant-elk",
+    "name": "Giant Elk",
+    "challenge_rating": 2,
+    "type": "beast"
+  },
+  {
+    "index": "giant-fire-beetle",
+    "name": "Giant Fire Beetle",
+    "challenge_rating": 0,
+    "type": "beast"
+  },
+  {
+    "index": "giant-frog",
+    "name": "Giant Frog",
+    "challenge_rating": 0.25,
+    "type": "beast"
+  },
+  {
+    "index": "giant-goat",
+    "name": "Giant Goat",
+    "challenge_rating": 0.5,
+    "type": "beast"
+  },
+  {
+    "index": "giant-hyena",
+    "name": "Giant Hyena",
+    "challenge_rating": 1,
+    "type": "beast"
+  },
+  {
+    "index": "giant-lizard",
+    "name": "Giant Lizard",
+    "challenge_rating": 0.25,
+    "type": "beast"
+  },
+  {
+    "index": "giant-octopus",
+    "name": "Giant Octopus",
+    "challenge_rating": 1,
+    "type": "beast"
+  },
+  {
+    "index": "giant-owl",
+    "name": "Giant Owl",
+    "challenge_rating": 0.25,
+    "type": "beast"
+  },
+  {
+    "index": "giant-poisonous-snake",
+    "name": "Giant Poisonous Snake",
+    "challenge_rating": 0.25,
+    "type": "beast"
+  },
+  {
+    "index": "giant-rat",
+    "name": "Giant Rat",
+    "challenge_rating": 0.125,
+    "type": "beast"
+  },
+  {
+    "index": "giant-rat-diseased",
+    "name": "Giant Rat (Diseased)",
+    "challenge_rating": 0.125,
+    "type": "beast"
+  },
+  {
+    "index": "giant-scorpion",
+    "name": "Giant Scorpion",
+    "challenge_rating": 3,
+    "type": "beast"
+  },
+  {
+    "index": "giant-sea-horse",
+    "name": "Giant Sea Horse",
+    "challenge_rating": 0.5,
+    "type": "beast"
+  },
+  {
+    "index": "giant-shark",
+    "name": "Giant Shark",
+    "challenge_rating": 5,
+    "type": "beast"
+  },
+  {
+    "index": "giant-spider",
+    "name": "Giant Spider",
+    "challenge_rating": 1,
+    "type": "beast"
+  },
+  {
+    "index": "giant-toad",
+    "name": "Giant Toad",
+    "challenge_rating": 1,
+    "type": "beast"
+  },
+  {
+    "index": "giant-vulture",
+    "name": "Giant Vulture",
+    "challenge_rating": 1,
+    "type": "beast"
+  },
+  {
+    "index": "giant-wasp",
+    "name": "Giant Wasp",
+    "challenge_rating": 0.5,
+    "type": "beast"
+  },
+  {
+    "index": "giant-weasel",
+    "name": "Giant Weasel",
+    "challenge_rating": 0.125,
+    "type": "beast"
+  },
+  {
+    "index": "giant-wolf-spider",
+    "name": "Giant Wolf Spider",
+    "challenge_rating": 0.25,
+    "type": "beast"
+  },
+  {
+    "index": "gibbering-mouther",
+    "name": "Gibbering Mouther",
+    "challenge_rating": 2,
+    "type": "aberration"
+  },
+  {
+    "index": "glabrezu",
+    "name": "Glabrezu",
+    "challenge_rating": 9,
+    "type": "fiend"
+  },
+  {
+    "index": "gladiator",
+    "name": "Gladiator",
+    "challenge_rating": 5,
+    "type": "humanoid"
+  },
+  {
+    "index": "gnoll",
+    "name": "Gnoll",
+    "challenge_rating": 0.5,
+    "type": "humanoid"
+  },
+  {
+    "index": "goat",
+    "name": "Goat",
+    "challenge_rating": 0,
+    "type": "beast"
+  },
+  {
+    "index": "goblin",
+    "name": "Goblin",
+    "challenge_rating": 0.25,
+    "type": "humanoid"
+  },
+  {
+    "index": "gold-dragon-wyrmling",
+    "name": "Gold Dragon Wyrmling",
+    "challenge_rating": 3,
+    "type": "dragon"
+  },
+  {
+    "index": "gorgon",
+    "name": "Gorgon",
+    "challenge_rating": 5,
+    "type": "monstrosity"
+  },
+  {
+    "index": "gray-ooze",
+    "name": "Gray Ooze",
+    "challenge_rating": 0.5,
+    "type": "ooze"
+  },
+  {
+    "index": "green-dragon-wyrmling",
+    "name": "Green Dragon Wyrmling",
+    "challenge_rating": 2,
+    "type": "dragon"
+  },
+  {
+    "index": "green-hag",
+    "name": "Green Hag",
+    "challenge_rating": 3,
+    "type": "fey"
+  },
+  {
+    "index": "grick",
+    "name": "Grick",
+    "challenge_rating": 2,
+    "type": "monstrosity"
+  },
+  {
+    "index": "griffon",
+    "name": "Griffon",
+    "challenge_rating": 2,
+    "type": "monstrosity"
+  },
+  {
+    "index": "grimlock",
+    "name": "Grimlock",
+    "challenge_rating": 0.25,
+    "type": "humanoid"
+  },
+  {
+    "index": "guard",
+    "name": "Guard",
+    "challenge_rating": 0.125,
+    "type": "humanoid"
+  },
+  {
+    "index": "guardian-naga",
+    "name": "Guardian Naga",
+    "challenge_rating": 10,
+    "type": "monstrosity"
+  },
+  {
+    "index": "gynosphinx",
+    "name": "Gynosphinx",
+    "challenge_rating": 11,
+    "type": "monstrosity"
+  },
+  {
+    "index": "half-red-dragon-veteran",
+    "name": "Half-Red Dragon Veteran",
+    "challenge_rating": 5,
+    "type": "humanoid"
+  },
+  {
+    "index": "harpy",
+    "name": "Harpy",
+    "challenge_rating": 1,
+    "type": "monstrosity"
+  },
+  {
+    "index": "hawk",
+    "name": "Hawk",
+    "challenge_rating": 0,
+    "type": "beast"
+  },
+  {
+    "index": "hell-hound",
+    "name": "Hell Hound",
+    "challenge_rating": 3,
+    "type": "fiend"
+  },
+  {
+    "index": "hezrou",
+    "name": "Hezrou",
+    "challenge_rating": 8,
+    "type": "fiend"
+  },
+  {
+    "index": "hill-giant",
+    "name": "Hill Giant",
+    "challenge_rating": 5,
+    "type": "giant"
+  },
+  {
+    "index": "hippogriff",
+    "name": "Hippogriff",
+    "challenge_rating": 1,
+    "type": "monstrosity"
+  },
+  {
+    "index": "hobgoblin",
+    "name": "Hobgoblin",
+    "challenge_rating": 0.5,
+    "type": "humanoid"
+  },
+  {
+    "index": "homunculus",
+    "name": "Homunculus",
+    "challenge_rating": 0,
+    "type": "construct"
+  },
+  {
+    "index": "horned-devil",
+    "name": "Horned Devil",
+    "challenge_rating": 11,
+    "type": "fiend"
+  },
+  {
+    "index": "hunter-shark",
+    "name": "Hunter Shark",
+    "challenge_rating": 2,
+    "type": "beast"
+  },
+  {
+    "index": "hydra",
+    "name": "Hydra",
+    "challenge_rating": 8,
+    "type": "monstrosity"
+  },
+  {
+    "index": "hyena",
+    "name": "Hyena",
+    "challenge_rating": 0,
+    "type": "beast"
+  },
+  {
+    "index": "ice-devil",
+    "name": "Ice Devil",
+    "challenge_rating": 14,
+    "type": "fiend"
+  },
+  {
+    "index": "ice-mephit",
+    "name": "Ice Mephit",
+    "challenge_rating": 0.5,
+    "type": "elemental"
+  },
+  {
+    "index": "imp",
+    "name": "Imp",
+    "challenge_rating": 1,
+    "type": "fiend"
+  },
+  {
+    "index": "invisible-stalker",
+    "name": "Invisible Stalker",
+    "challenge_rating": 6,
+    "type": "elemental"
+  },
+  {
+    "index": "iron-golem",
+    "name": "Iron Golem",
+    "challenge_rating": 16,
+    "type": "construct"
+  },
+  {
+    "index": "jackal",
+    "name": "Jackal",
+    "challenge_rating": 0,
+    "type": "beast"
+  },
+  {
+    "index": "killer-whale",
+    "name": "Killer Whale",
+    "challenge_rating": 3,
+    "type": "beast"
+  },
+  {
+    "index": "knight",
+    "name": "Knight",
+    "challenge_rating": 3,
+    "type": "humanoid"
+  },
+  {
+    "index": "kobold",
+    "name": "Kobold",
+    "challenge_rating": 0.125,
+    "type": "humanoid"
+  },
+  {
+    "index": "kraken",
+    "name": "Kraken",
+    "challenge_rating": 23,
+    "type": "monstrosity"
+  },
+  {
+    "index": "lamia",
+    "name": "Lamia",
+    "challenge_rating": 4,
+    "type": "monstrosity"
+  },
+  {
+    "index": "lemure",
+    "name": "Lemure",
+    "challenge_rating": 0,
+    "type": "fiend"
+  },
+  {
+    "index": "lich",
+    "name": "Lich",
+    "challenge_rating": 21,
+    "type": "undead"
+  },
+  {
+    "index": "lion",
+    "name": "Lion",
+    "challenge_rating": 1,
+    "type": "beast"
+  },
+  {
+    "index": "lizard",
+    "name": "Lizard",
+    "challenge_rating": 0,
+    "type": "beast"
+  },
+  {
+    "index": "lizardfolk",
+    "name": "Lizardfolk",
+    "challenge_rating": 0.5,
+    "type": "humanoid"
+  },
+  {
+    "index": "mage",
+    "name": "Mage",
+    "challenge_rating": 6,
+    "type": "humanoid"
+  },
+  {
+    "index": "magma-mephit",
+    "name": "Magma Mephit",
+    "challenge_rating": 0.5,
+    "type": "elemental"
+  },
+  {
+    "index": "magmin",
+    "name": "Magmin",
+    "challenge_rating": 0.5,
+    "type": "elemental"
+  },
+  {
+    "index": "mammoth",
+    "name": "Mammoth",
+    "challenge_rating": 6,
+    "type": "beast"
+  },
+  {
+    "index": "manticore",
+    "name": "Manticore",
+    "challenge_rating": 3,
+    "type": "monstrosity"
+  },
+  {
+    "index": "marilith",
+    "name": "Marilith",
+    "challenge_rating": 16,
+    "type": "fiend"
+  },
+  {
+    "index": "mastiff",
+    "name": "Mastiff",
+    "challenge_rating": 0.125,
+    "type": "beast"
+  },
+  {
+    "index": "medusa",
+    "name": "Medusa",
+    "challenge_rating": 6,
+    "type": "monstrosity"
+  },
+  {
+    "index": "merfolk",
+    "name": "Merfolk",
+    "challenge_rating": 0.125,
+    "type": "humanoid"
+  },
+  {
+    "index": "merrow",
+    "name": "Merrow",
+    "challenge_rating": 2,
+    "type": "monstrosity"
+  },
+  {
+    "index": "mimic",
+    "name": "Mimic",
+    "challenge_rating": 2,
+    "type": "monstrosity"
+  },
+  {
+    "index": "minotaur",
+    "name": "Minotaur",
+    "challenge_rating": 3,
+    "type": "monstrosity"
+  },
+  {
+    "index": "minotaur-skeleton",
+    "name": "Minotaur Skeleton",
+    "challenge_rating": 2,
+    "type": "undead"
+  },
+  {
+    "index": "mule",
+    "name": "Mule",
+    "challenge_rating": 0.125,
+    "type": "beast"
+  },
+  {
+    "index": "mummy",
+    "name": "Mummy",
+    "challenge_rating": 3,
+    "type": "undead"
+  },
+  {
+    "index": "mummy-lord",
+    "name": "Mummy Lord",
+    "challenge_rating": 15,
+    "type": "undead"
+  },
+  {
+    "index": "nalfeshnee",
+    "name": "Nalfeshnee",
+    "challenge_rating": 13,
+    "type": "fiend"
+  },
+  {
+    "index": "night-hag",
+    "name": "Night Hag",
+    "challenge_rating": 5,
+    "type": "fiend"
+  },
+  {
+    "index": "nightmare",
+    "name": "Nightmare",
+    "challenge_rating": 3,
+    "type": "fiend"
+  },
+  {
+    "index": "noble",
+    "name": "Noble",
+    "challenge_rating": 0.125,
+    "type": "humanoid"
+  },
+  {
+    "index": "ochre-jelly",
+    "name": "Ochre Jelly",
+    "challenge_rating": 2,
+    "type": "ooze"
+  },
+  {
+    "index": "octopus",
+    "name": "Octopus",
+    "challenge_rating": 0,
+    "type": "beast"
+  },
+  {
+    "index": "ogre",
+    "name": "Ogre",
+    "challenge_rating": 2,
+    "type": "giant"
+  },
+  {
+    "index": "ogre-zombie",
+    "name": "Ogre Zombie",
+    "challenge_rating": 2,
+    "type": "undead"
+  },
+  {
+    "index": "oni",
+    "name": "Oni",
+    "challenge_rating": 7,
+    "type": "giant"
+  },
+  {
+    "index": "orc",
+    "name": "Orc",
+    "challenge_rating": 0.5,
+    "type": "humanoid"
+  },
+  {
+    "index": "otyugh",
+    "name": "Otyugh",
+    "challenge_rating": 5,
+    "type": "aberration"
+  },
+  {
+    "index": "owl",
+    "name": "Owl",
+    "challenge_rating": 0,
+    "type": "beast"
+  },
+  {
+    "index": "owlbear",
+    "name": "Owlbear",
+    "challenge_rating": 3,
+    "type": "monstrosity"
+  },
+  {
+    "index": "panther",
+    "name": "Panther",
+    "challenge_rating": 0.25,
+    "type": "beast"
+  },
+  {
+    "index": "pegasus",
+    "name": "Pegasus",
+    "challenge_rating": 2,
+    "type": "celestial"
+  },
+  {
+    "index": "phase-spider",
+    "name": "Phase Spider",
+    "challenge_rating": 3,
+    "type": "monstrosity"
+  },
+  {
+    "index": "pit-fiend",
+    "name": "Pit Fiend",
+    "challenge_rating": 20,
+    "type": "fiend"
+  },
+  {
+    "index": "planetar",
+    "name": "Planetar",
+    "challenge_rating": 16,
+    "type": "celestial"
+  },
+  {
+    "index": "plesiosaurus",
+    "name": "Plesiosaurus",
+    "challenge_rating": 2,
+    "type": "beast"
+  },
+  {
+    "index": "poisonous-snake",
+    "name": "Poisonous Snake",
+    "challenge_rating": 0.125,
+    "type": "beast"
+  },
+  {
+    "index": "polar-bear",
+    "name": "Polar Bear",
+    "challenge_rating": 2,
+    "type": "beast"
+  },
+  {
+    "index": "pony",
+    "name": "Pony",
+    "challenge_rating": 0.125,
+    "type": "beast"
+  },
+  {
+    "index": "priest",
+    "name": "Priest",
+    "challenge_rating": 2,
+    "type": "humanoid"
+  },
+  {
+    "index": "pseudodragon",
+    "name": "Pseudodragon",
+    "challenge_rating": 0.25,
+    "type": "dragon"
+  },
+  {
+    "index": "purple-worm",
+    "name": "Purple Worm",
+    "challenge_rating": 15,
+    "type": "monstrosity"
+  },
+  {
+    "index": "quasit",
+    "name": "Quasit",
+    "challenge_rating": 1,
+    "type": "fiend"
+  },
+  {
+    "index": "quipper",
+    "name": "Quipper",
+    "challenge_rating": 0,
+    "type": "beast"
+  },
+  {
+    "index": "rakshasa",
+    "name": "Rakshasa",
+    "challenge_rating": 13,
+    "type": "fiend"
+  },
+  {
+    "index": "rat",
+    "name": "Rat",
+    "challenge_rating": 0,
+    "type": "beast"
+  },
+  {
+    "index": "raven",
+    "name": "Raven",
+    "challenge_rating": 0,
+    "type": "beast"
+  },
+  {
+    "index": "red-dragon-wyrmling",
+    "name": "Red Dragon Wyrmling",
+    "challenge_rating": 4,
+    "type": "dragon"
+  },
+  {
+    "index": "reef-shark",
+    "name": "Reef Shark",
+    "challenge_rating": 0.5,
+    "type": "beast"
+  },
+  {
+    "index": "remorhaz",
+    "name": "Remorhaz",
+    "challenge_rating": 11,
+    "type": "monstrosity"
+  },
+  {
+    "index": "rhinoceros",
+    "name": "Rhinoceros",
+    "challenge_rating": 2,
+    "type": "beast"
+  },
+  {
+    "index": "riding-horse",
+    "name": "Riding Horse",
+    "challenge_rating": 0.25,
+    "type": "beast"
+  },
+  {
+    "index": "roc",
+    "name": "Roc",
+    "challenge_rating": 11,
+    "type": "monstrosity"
+  },
+  {
+    "index": "roper",
+    "name": "Roper",
+    "challenge_rating": 5,
+    "type": "monstrosity"
+  },
+  {
+    "index": "rug-of-smothering",
+    "name": "Rug of Smothering",
+    "challenge_rating": 2,
+    "type": "construct"
+  },
+  {
+    "index": "rust-monster",
+    "name": "Rust Monster",
+    "challenge_rating": 0.5,
+    "type": "monstrosity"
+  },
+  {
+    "index": "saber-toothed-tiger",
+    "name": "Saber-Toothed Tiger",
+    "challenge_rating": 2,
+    "type": "beast"
+  },
+  {
+    "index": "sahuagin",
+    "name": "Sahuagin",
+    "challenge_rating": 0.5,
+    "type": "humanoid"
+  },
+  {
+    "index": "salamander",
+    "name": "Salamander",
+    "challenge_rating": 5,
+    "type": "elemental"
+  },
+  {
+    "index": "satyr",
+    "name": "Satyr",
+    "challenge_rating": 0.5,
+    "type": "fey"
+  },
+  {
+    "index": "scorpion",
+    "name": "Scorpion",
+    "challenge_rating": 0,
+    "type": "beast"
+  },
+  {
+    "index": "scout",
+    "name": "Scout",
+    "challenge_rating": 0.5,
+    "type": "humanoid"
+  },
+  {
+    "index": "sea-hag",
+    "name": "Sea Hag",
+    "challenge_rating": 2,
+    "type": "fey"
+  },
+  {
+    "index": "sea-horse",
+    "name": "Sea Horse",
+    "challenge_rating": 0,
+    "type": "beast"
+  },
+  {
+    "index": "shadow",
+    "name": "Shadow",
+    "challenge_rating": 0.5,
+    "type": "undead"
+  },
+  {
+    "index": "shambling-mound",
+    "name": "Shambling Mound",
+    "challenge_rating": 5,
+    "type": "plant"
+  },
+  {
+    "index": "shield-guardian",
+    "name": "Shield Guardian",
+    "challenge_rating": 7,
+    "type": "construct"
+  },
+  {
+    "index": "shrieker",
+    "name": "Shrieker",
+    "challenge_rating": 0,
+    "type": "plant"
+  },
+  {
+    "index": "silver-dragon-wyrmling",
+    "name": "Silver Dragon Wyrmling",
+    "challenge_rating": 2,
+    "type": "dragon"
+  },
+  {
+    "index": "skeleton",
+    "name": "Skeleton",
+    "challenge_rating": 0.25,
+    "type": "undead"
+  },
+  {
+    "index": "solar",
+    "name": "Solar",
+    "challenge_rating": 21,
+    "type": "celestial"
+  },
+  {
+    "index": "specter",
+    "name": "Specter",
+    "challenge_rating": 1,
+    "type": "undead"
+  },
+  {
+    "index": "spider",
+    "name": "Spider",
+    "challenge_rating": 0,
+    "type": "beast"
+  },
+  {
+    "index": "spirit-naga",
+    "name": "Spirit Naga",
+    "challenge_rating": 8,
+    "type": "monstrosity"
+  },
+  {
+    "index": "sprite",
+    "name": "Sprite",
+    "challenge_rating": 0.25,
+    "type": "fey"
+  },
+  {
+    "index": "spy",
+    "name": "Spy",
+    "challenge_rating": 1,
+    "type": "humanoid"
+  },
+  {
+    "index": "steam-mephit",
+    "name": "Steam Mephit",
+    "challenge_rating": 0.25,
+    "type": "elemental"
+  },
+  {
+    "index": "stirge",
+    "name": "Stirge",
+    "challenge_rating": 0.125,
+    "type": "beast"
+  },
+  {
+    "index": "stone-giant",
+    "name": "Stone Giant",
+    "challenge_rating": 7,
+    "type": "giant"
+  },
+  {
+    "index": "stone-golem",
+    "name": "Stone Golem",
+    "challenge_rating": 10,
+    "type": "construct"
+  },
+  {
+    "index": "storm-giant",
+    "name": "Storm Giant",
+    "challenge_rating": 13,
+    "type": "giant"
+  },
+  {
+    "index": "succubus-incubus",
+    "name": "Succubus/Incubus",
+    "challenge_rating": 4,
+    "type": "fiend"
+  },
+  {
+    "index": "swarm-of-bats",
+    "name": "Swarm of Bats",
+    "challenge_rating": 0.25,
+    "type": "swarm of Tiny beasts"
+  },
+  {
+    "index": "swarm-of-beetles",
+    "name": "Swarm of Beetles",
+    "challenge_rating": 0.5,
+    "type": "swarm of Tiny beasts"
+  },
+  {
+    "index": "swarm-of-centipedes",
+    "name": "Swarm of Centipedes",
+    "challenge_rating": 0.5,
+    "type": "swarm of Tiny beasts"
+  },
+  {
+    "index": "swarm-of-insects",
+    "name": "Swarm of Insects",
+    "challenge_rating": 0.5,
+    "type": "swarm of Tiny beasts"
+  },
+  {
+    "index": "swarm-of-poisonous-snakes",
+    "name": "Swarm of Poisonous Snakes",
+    "challenge_rating": 2,
+    "type": "swarm of Tiny beasts"
+  },
+  {
+    "index": "swarm-of-quippers",
+    "name": "Swarm of Quippers",
+    "challenge_rating": 1,
+    "type": "swarm of Tiny beasts"
+  },
+  {
+    "index": "swarm-of-rats",
+    "name": "Swarm of Rats",
+    "challenge_rating": 0.25,
+    "type": "swarm of Tiny beasts"
+  },
+  {
+    "index": "swarm-of-ravens",
+    "name": "Swarm of Ravens",
+    "challenge_rating": 0.25,
+    "type": "swarm of Tiny beasts"
+  },
+  {
+    "index": "swarm-of-spiders",
+    "name": "Swarm of Spiders",
+    "challenge_rating": 0.5,
+    "type": "swarm of Tiny beasts"
+  },
+  {
+    "index": "swarm-of-wasps",
+    "name": "Swarm of Wasps",
+    "challenge_rating": 0.5,
+    "type": "swarm of Tiny beasts"
+  },
+  {
+    "index": "tarrasque",
+    "name": "Tarrasque",
+    "challenge_rating": 30,
+    "type": "monstrosity"
+  },
+  {
+    "index": "thug",
+    "name": "Thug",
+    "challenge_rating": 0.5,
+    "type": "humanoid"
+  },
+  {
+    "index": "tiger",
+    "name": "Tiger",
+    "challenge_rating": 1,
+    "type": "beast"
+  },
+  {
+    "index": "treant",
+    "name": "Treant",
+    "challenge_rating": 9,
+    "type": "plant"
+  },
+  {
+    "index": "tribal-warrior",
+    "name": "Tribal Warrior",
+    "challenge_rating": 0.125,
+    "type": "humanoid"
+  },
+  {
+    "index": "triceratops",
+    "name": "Triceratops",
+    "challenge_rating": 5,
+    "type": "beast"
+  },
+  {
+    "index": "troll",
+    "name": "Troll",
+    "challenge_rating": 5,
+    "type": "giant"
+  },
+  {
+    "index": "tyrannosaurus-rex",
+    "name": "Tyrannosaurus Rex",
+    "challenge_rating": 8,
+    "type": "beast"
+  },
+  {
+    "index": "unicorn",
+    "name": "Unicorn",
+    "challenge_rating": 5,
+    "type": "celestial"
+  },
+  {
+    "index": "vampire-vampire",
+    "name": "Vampire, Vampire Form",
+    "challenge_rating": 13,
+    "type": "undead"
+  },
+  {
+    "index": "vampire-bat",
+    "name": "Vampire, Bat Form",
+    "challenge_rating": 13,
+    "type": "undead"
+  },
+  {
+    "index": "vampire-mist",
+    "name": "Vampire, Mist Form",
+    "challenge_rating": 13,
+    "type": "undead"
+  },
+  {
+    "index": "vampire-spawn",
+    "name": "Vampire Spawn",
+    "challenge_rating": 5,
+    "type": "undead"
+  },
+  {
+    "index": "veteran",
+    "name": "Veteran",
+    "challenge_rating": 3,
+    "type": "humanoid"
+  },
+  {
+    "index": "violet-fungus",
+    "name": "Violet Fungus",
+    "challenge_rating": 0.25,
+    "type": "plant"
+  },
+  {
+    "index": "vrock",
+    "name": "Vrock",
+    "challenge_rating": 6,
+    "type": "fiend"
+  },
+  {
+    "index": "vulture",
+    "name": "Vulture",
+    "challenge_rating": 0,
+    "type": "beast"
+  },
+  {
+    "index": "warhorse",
+    "name": "Warhorse",
+    "challenge_rating": 0.5,
+    "type": "beast"
+  },
+  {
+    "index": "warhorse-skeleton",
+    "name": "Warhorse Skeleton",
+    "challenge_rating": 0.5,
+    "type": "undead"
+  },
+  {
+    "index": "water-elemental",
+    "name": "Water Elemental",
+    "challenge_rating": 5,
+    "type": "elemental"
+  },
+  {
+    "index": "weasel",
+    "name": "Weasel",
+    "challenge_rating": 0,
+    "type": "beast"
+  },
+  {
+    "index": "werebear-bear",
+    "name": "Werebear, Bear Form",
+    "challenge_rating": 5,
+    "type": "humanoid"
+  },
+  {
+    "index": "werebear-human",
+    "name": "Werebear, Human Form",
+    "challenge_rating": 5,
+    "type": "humanoid"
+  },
+  {
+    "index": "werebear-hybrid",
+    "name": "Werebear, Hybrid Form",
+    "challenge_rating": 5,
+    "type": "humanoid"
+  },
+  {
+    "index": "wereboar-boar",
+    "name": "Wereboar, Boar Form",
+    "challenge_rating": 4,
+    "type": "humanoid"
+  },
+  {
+    "index": "wereboar-human",
+    "name": "Wereboar, Human Form",
+    "challenge_rating": 4,
+    "type": "humanoid"
+  },
+  {
+    "index": "wereboar-hybrid",
+    "name": "Wereboar, Hybrid Form",
+    "challenge_rating": 4,
+    "type": "humanoid"
+  },
+  {
+    "index": "wererat-human",
+    "name": "Wererat, Human Form",
+    "challenge_rating": 2,
+    "type": "humanoid"
+  },
+  {
+    "index": "wererat-hybrid",
+    "name": "Wererat, Hybrid Form",
+    "challenge_rating": 2,
+    "type": "humanoid"
+  },
+  {
+    "index": "wererat-rat",
+    "name": "Wererat, Rat Form",
+    "challenge_rating": 2,
+    "type": "humanoid"
+  },
+  {
+    "index": "weretiger-human",
+    "name": "Weretiger, Human Form",
+    "challenge_rating": 4,
+    "type": "humanoid"
+  },
+  {
+    "index": "weretiger-hybrid",
+    "name": "Weretiger, Hybrid Form",
+    "challenge_rating": 4,
+    "type": "humanoid"
+  },
+  {
+    "index": "weretiger-tiger",
+    "name": "Weretiger, Tiger Form",
+    "challenge_rating": 4,
+    "type": "humanoid"
+  },
+  {
+    "index": "werewolf-human",
+    "name": "Werewolf, Human Form",
+    "challenge_rating": 3,
+    "type": "humanoid"
+  },
+  {
+    "index": "werewolf-hybrid",
+    "name": "Werewolf, Hybrid Form",
+    "challenge_rating": 3,
+    "type": "humanoid"
+  },
+  {
+    "index": "werewolf-wolf",
+    "name": "Werewolf, Wolf Form",
+    "challenge_rating": 3,
+    "type": "humanoid"
+  },
+  {
+    "index": "white-dragon-wyrmling",
+    "name": "White Dragon Wyrmling",
+    "challenge_rating": 2,
+    "type": "dragon"
+  },
+  {
+    "index": "wight",
+    "name": "Wight",
+    "challenge_rating": 3,
+    "type": "undead"
+  },
+  {
+    "index": "will-o-wisp",
+    "name": "Will-o'-Wisp",
+    "challenge_rating": 2,
+    "type": "undead"
+  },
+  {
+    "index": "winter-wolf",
+    "name": "Winter Wolf",
+    "challenge_rating": 3,
+    "type": "monstrosity"
+  },
+  {
+    "index": "wolf",
+    "name": "Wolf",
+    "challenge_rating": 0.25,
+    "type": "beast"
+  },
+  {
+    "index": "worg",
+    "name": "Worg",
+    "challenge_rating": 0.5,
+    "type": "monstrosity"
+  },
+  {
+    "index": "wraith",
+    "name": "Wraith",
+    "challenge_rating": 5,
+    "type": "undead"
+  },
+  {
+    "index": "wyvern",
+    "name": "Wyvern",
+    "challenge_rating": 6,
+    "type": "dragon"
+  },
+  {
+    "index": "xorn",
+    "name": "Xorn",
+    "challenge_rating": 5,
+    "type": "elemental"
+  },
+  {
+    "index": "young-black-dragon",
+    "name": "Young Black Dragon",
+    "challenge_rating": 7,
+    "type": "dragon"
+  },
+  {
+    "index": "young-blue-dragon",
+    "name": "Young Blue Dragon",
+    "challenge_rating": 9,
+    "type": "dragon"
+  },
+  {
+    "index": "young-brass-dragon",
+    "name": "Young Brass Dragon",
+    "challenge_rating": 6,
+    "type": "dragon"
+  },
+  {
+    "index": "young-bronze-dragon",
+    "name": "Young Bronze Dragon",
+    "challenge_rating": 8,
+    "type": "dragon"
+  },
+  {
+    "index": "young-copper-dragon",
+    "name": "Young Copper Dragon",
+    "challenge_rating": 7,
+    "type": "dragon"
+  },
+  {
+    "index": "young-gold-dragon",
+    "name": "Young Gold Dragon",
+    "challenge_rating": 10,
+    "type": "dragon"
+  },
+  {
+    "index": "young-green-dragon",
+    "name": "Young Green Dragon",
+    "challenge_rating": 8,
+    "type": "dragon"
+  },
+  {
+    "index": "young-red-dragon",
+    "name": "Young Red Dragon",
+    "challenge_rating": 10,
+    "type": "dragon"
+  },
+  {
+    "index": "young-silver-dragon",
+    "name": "Young Silver Dragon",
+    "challenge_rating": 9,
+    "type": "dragon"
+  },
+  {
+    "index": "young-white-dragon",
+    "name": "Young White Dragon",
+    "challenge_rating": 6,
+    "type": "dragon"
+  },
+  {
+    "index": "zombie",
+    "name": "Zombie",
+    "challenge_rating": 0.25,
+    "type": "undead"
+  }
+]

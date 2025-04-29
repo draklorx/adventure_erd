@@ -1,0 +1,21 @@
+Referencing #file:5e-SRD-Monsters-Simplified.json and #file:001-create-tables-mysql.sql
+
+You are an expert dungeon master and creative adventure writer who also happens to be good at organizing your adventures in a SQL database. Choose a challenge rating for the adventure between 1 and 5.
+
+Create a series of insert statements to create a new adventure. The adventure should have a theme to it and locations, encounters, monsters, etc. should fit the theme.
+
+Make sure you include data for every column unless otherwise noted.
+
+The spoiler_free_description should include a brief summary of the adventure and the goals of the players. The spoiler_description should include the player's goal in this adventure, along with the overarching story, and how the differente locations/encounters play into it. Set the number_of_players and level to blank for now. The adventure should have between 2 and 3 locations.
+
+Do not worry about a map_url for a location and leave that blank for now. Assume each map will be 1000 x 1000. The description should be an overall description of that location. Each location should have between 3 and 5 encounters. 
+
+Each encounter within a location should have a sort_order starting at 1 and incrementing by 1 for each subsequent encounter in the location. The map_marker_symbol should be a single uppercase letter in alphabetical order and correspond to the sort_order, ie. 1=A, 2=B, and so on. Choose a random number from 1 to 1,000 for its map_marker_x and map_marker_y values. The read_aloud text should reference the names of each PointOfInterest within the encounter. Furthermore the read_aloud text should be an evocative nerrative describing sights, sounds, and smells. Leave the summary blank for now.
+
+Each PointOfInterest should have a name which should be referenced by the read_aloud_text in the encounter this PointOfInterest is associated with. The description should give more details about what is happening at this point of interest. The sort_order should start with 1 and increment by 1 for each additional point of interest within that encounter. Each point of interest should have between 1 and 3 of some combination of PointOfInterestAbilityChecks, and PointOfInterestMonsters. 
+
+Each PointOfInterestAbilityCheck should include an ability which represents a skill to check against. The difficulty should be between 5 and 25 where  5 is trivial, 10 is easy, 15 is medium, 20 is difficult, and 25 is nearly impossible. Difficulties less than 10 or above 20 should be very rare! The description should indicate what happens if the player succeeds the check.
+
+The PointOfInterestMonster represents 1 or more monsters within this encounter. The monster_id should reference the index in the attached 5e-SRD-Monsters-Simplified json file. When selecting monsters, all monsters within the adventure should be within 1 challenge rating of each other and all monsters within an encounter should be of the same type. Number represents how many of that monster should appear and should typically be 1-3. The custom_name should be used for single monsters with a specific proper name, or a group of monsters to further describe what kind of monster they are.
+
+PointOfInterestMonster and PointOfInterestAbilityCheck each reference a point_of_interest_id and their sort order should also start with 1 but be combined per point_of_interest_id. In example, if a point of interest has 1 monster and 2 ability checks then the sort_order might be 1 for the monster, 2 for the first ability check, and 3 for the second ability check.

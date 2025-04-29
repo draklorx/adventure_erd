@@ -1,0 +1,3 @@
+Referencing #file:5e-SRD-Monsters.json
+
+Can you update this json array so that it's just an array of objects only containing the index, name, challenge rating, and type? We can strip out all other data.

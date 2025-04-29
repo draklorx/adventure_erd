@@ -1,0 +1,2 @@
+Referencing #file:erd.txt and #file:001-create-tables-sqlite.sql 
+Can you update this sql script to be mysql compatible and use foreign key constraints?

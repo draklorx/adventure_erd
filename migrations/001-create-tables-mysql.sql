@@ -1,5 +1,5 @@
 -- Up
-CREATE TABLE IF NOT EXISTS Adventure (
+CREATE TABLE IF NOT EXISTS adventure (
   id INT AUTO_INCREMENT PRIMARY KEY,
   name VARCHAR(128) NOT NULL,
   spoiler_free_description TEXT NOT NULL,
@@ -10,7 +10,7 @@ CREATE TABLE IF NOT EXISTS Adventure (
   updated_at TIMESTAMP NULL ON UPDATE CURRENT_TIMESTAMP
 );
 
-CREATE TABLE IF NOT EXISTS Location (
+CREATE TABLE IF NOT EXISTS location (
   id INT AUTO_INCREMENT PRIMARY KEY,
   adventure_id INT NOT NULL,
   name VARCHAR(128) NOT NULL,
@@ -21,10 +21,10 @@ CREATE TABLE IF NOT EXISTS Location (
   sort_order INT NOT NULL,
   created_at TIMESTAMP NOT NULL DEFAULT CURRENT_TIMESTAMP,
   updated_at TIMESTAMP NULL ON UPDATE CURRENT_TIMESTAMP,
-  CONSTRAINT fk_location_adventure FOREIGN KEY (adventure_id) REFERENCES Adventure(id) ON DELETE CASCADE
+  CONSTRAINT fk_location_adventure FOREIGN KEY (adventure_id) REFERENCES adventure(id) ON DELETE CASCADE
 );
 
-CREATE TABLE IF NOT EXISTS Encounter (
+CREATE TABLE IF NOT EXISTS encounter (
   id INT AUTO_INCREMENT PRIMARY KEY,
   location_id INT NOT NULL,
   name VARCHAR(128) NOT NULL,
@@ -36,10 +36,10 @@ CREATE TABLE IF NOT EXISTS Encounter (
   sort_order INT NOT NULL,
   created_at TIMESTAMP NOT NULL DEFAULT CURRENT_TIMESTAMP,
   updated_at TIMESTAMP NULL ON UPDATE CURRENT_TIMESTAMP,
-  CONSTRAINT fk_encounter_location FOREIGN KEY (location_id) REFERENCES Location(id) ON DELETE CASCADE
+  CONSTRAINT fk_encounter_location FOREIGN KEY (location_id) REFERENCES location(id) ON DELETE CASCADE
 );
 
-CREATE TABLE IF NOT EXISTS PointOfInterest (
+CREATE TABLE IF NOT EXISTS point_of_interest (
   id INT AUTO_INCREMENT PRIMARY KEY,
   encounter_id INT NOT NULL,
   name VARCHAR(128) NOT NULL,
@@ -47,10 +47,10 @@ CREATE TABLE IF NOT EXISTS PointOfInterest (
   sort_order INT NOT NULL,
   created_at TIMESTAMP NOT NULL DEFAULT CURRENT_TIMESTAMP,
   updated_at TIMESTAMP NULL ON UPDATE CURRENT_TIMESTAMP,
-  CONSTRAINT fk_poi_encounter FOREIGN KEY (encounter_id) REFERENCES Encounter(id) ON DELETE CASCADE
+  CONSTRAINT fk_poi_encounter FOREIGN KEY (encounter_id) REFERENCES encounter(id) ON DELETE CASCADE
 );
 
-CREATE TABLE IF NOT EXISTS PointOfInterestAbilityCheck (
+CREATE TABLE IF NOT EXISTS point_of_interest_ability_check (
   ability_check_id INT AUTO_INCREMENT PRIMARY KEY,
   point_of_interest_id INT NOT NULL,
   ability VARCHAR(64) NOT NULL,
@@ -59,10 +59,10 @@ CREATE TABLE IF NOT EXISTS PointOfInterestAbilityCheck (
   sort_order INT NOT NULL,
   created_at TIMESTAMP NOT NULL DEFAULT CURRENT_TIMESTAMP,
   updated_at TIMESTAMP NULL ON UPDATE CURRENT_TIMESTAMP,
-  CONSTRAINT fk_poi_ability_check FOREIGN KEY (point_of_interest_id) REFERENCES PointOfInterest(id) ON DELETE CASCADE
+  CONSTRAINT fk_poi_ability_check FOREIGN KEY (point_of_interest_id) REFERENCES point_of_interest(id) ON DELETE CASCADE
 );
 
-CREATE TABLE IF NOT EXISTS PointOfInterestMonster (
+CREATE TABLE IF NOT EXISTS point_of_interest_monster (
   monster_id VARCHAR(64) NOT NULL,
   point_of_interest_id INT NOT NULL,
   number INT NOT NULL,
@@ -71,7 +71,7 @@ CREATE TABLE IF NOT EXISTS PointOfInterestMonster (
   created_at TIMESTAMP NOT NULL DEFAULT CURRENT_TIMESTAMP,
   updated_at TIMESTAMP NULL ON UPDATE CURRENT_TIMESTAMP,
   PRIMARY KEY (monster_id, point_of_interest_id),
-  CONSTRAINT fk_poi_monster FOREIGN KEY (point_of_interest_id) REFERENCES PointOfInterest(id) ON DELETE CASCADE
+  CONSTRAINT fk_poi_monster FOREIGN KEY (point_of_interest_id) REFERENCES point_of_interest(id) ON DELETE CASCADE
 );
 
 -- Down

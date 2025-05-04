@@ -1,0 +1,21 @@
+{
+  "name": "mysql-to-markdown",
+  "version": "1.0.0",
+  "description": "A Node.js application that queries a MySQL database and outputs the results in a Markdown format.",
+  "main": "src/index.js",
+  "scripts": {
+    "start": "node src/index.js"
+  },
+  "dependencies": {
+    "dotenv": "^10.0.0",
+    "mysql": "^2.18.1",
+    "mysql2": "^3.14.1"
+  },
+  "keywords": [
+    "mysql",
+    "markdown",
+    "nodejs"
+  ],
+  "author": "",
+  "license": "ISC"
+}

@@ -14,23 +14,31 @@
 #
 ////////////////////////////////////
 
-DungeonsAndDragons
+dungeons_and_dragons
 ----
-Monster document
+monster document
 
-Adventure
+ability
+----
+id PK
+name varchar(64)
+
+adventure
 ----
 id PK
 name varchar(128)
 spoiler_free_description text
 spoiler_description text
 level integer
-number_of_players integer
+minimum_player_count
+maximum_player_count
+created_at
+updated_at
 
-Encounter
+encounter
 ----
 id PK
-location_id FK >0- Location.id
+location_id FK >0- location.id
 name varchar(128)
 read_aloud_text text
 summary text
@@ -39,10 +47,18 @@ map_marker_y integer
 map_marker_symbol varchar(4)
 sort_order integer
 
-Location
+encounter_monster
+----
+monster_id varchar(64) PK FK >0- monster.id
+encounter_id PK FK >0- encounter.id
+number integer
+custom_name varchar(64) null
+sort_order integer
+
+location
 ----
 id PK
-adventure_id FK >0- Adventure.id
+adventure_id FK >0- adventure.id
 name varchar(128)
 description text
 map_url text
@@ -50,37 +66,36 @@ map_width integer
 map_height integer
 sort_order integer
 
-PointOfInterest
+monster
 ----
 id PK
-encounter_id FK >0- Encounter.id
+monster_index varchar(64) FK - dungeons_and_dragons.monster
+
+point_of_interest
+----
+id PK
+encounter_id FK >0- encounter.id
 name varchar(128)
 description text
 sort_order integer
 
-PointOfInterestAbilityCheck
+point_of_interest_ability_check
 ----
-ability_check_id PK
-point_of_interest_id FK >0- PointOfInterest.id
-ability varchar(64)
+id PK
+point_of_interest_id FK >0- point_of_interest.id
+ability_id FK -< ability.id
 difficulty integer
 description text
 sort_order integer
 
-PointOfInterestMonster
-----
-monster_id varchar(64) PK FK >0- DungeonsAndDragons.Monster
-point_of_interest_id PK FK >0- PointOfInterest.id
-number integer
-custom_name varchar(64) null
-sort_order integer
-
-# view: (-74, -7)
+# view: (-122, -78)
 # zoom: 1.000
-# DungeonsAndDragons (350, 300, #00684a)
-# Adventure (50, 525, #ea8c10)
-# PointOfInterest (1250, 400, #ea8c10)
-# PointOfInterestMonster (600, 300, #ea8c10)
-# PointOfInterestAbilityCheck (675, 50, #ea8c10)
-# Location (500, 525, #ea8c10)
-# Encounter (850, 525, #ea8c10)
+# dungeons_and_dragons (150, 300, #00684a)
+# ability (175, 50, #ea8c10)
+# adventure (50, 475, #ea8c10)
+# encounter (850, 475, #ea8c10)
+# encounter_monster (850, 266, #ea8c10)
+# location (500, 475, #ea8c10)
+# monster (480, 300, #ea8c10)
+# point_of_interest (910, 50, #ea8c10)
+# point_of_interest_ability_check (460, 50, #ea8c10)
